@@ -66,9 +66,6 @@ The goal is to build a system that takes a job description (JD) or natural langu
 
 ---
 
-
----
-
 ## 📊 Data Collection & Preprocessing
 
 To build the SHL Assessment Recommendation Engine, we scraped data directly from SHL’s public website — specifically the **Pre-packaged Job Solutions** section, covering **up to 12 pages**.
@@ -137,7 +134,7 @@ To build the SHL Assessment Recommendation Engine, we scraped data directly from
    - Retrieves the top 10 most relevant assessments.
 
 5. **Response Generation**:
-   - Gemini Pro summarizes results in a user-friendly way (RAG-style).
+   - Gemini summarizes results in a user-friendly way (RAG-style).
 
 6. **Output**:
    - Recommendations are returned to the UI or via JSON API.
@@ -205,7 +202,7 @@ streamlit run app.py
 5. **Run Flask API**
 
 ```bash
-python flask_api.py
+python api.py
 ```
 
 ---
@@ -229,10 +226,13 @@ python flask_api.py
 
 ## 📸 Screenshots
 
-![Streamlit UI](assets/Screenshot 01.png)  
-![Roles](assets/Screenshot 02.png) 
-![Roles](assets/Screenshot 03.png)  
-![Simple Flask API](assets/Screenshot 04.png)
+![Streamlit UI](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2001.png)  
+---
+![Roles](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2002.png) 
+---
+![Roles](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2003.png)  
+---
+![Simple Flask API](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2004.png)
 
 
 ---
