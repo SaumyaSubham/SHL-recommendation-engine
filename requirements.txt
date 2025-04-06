@@ -1,0 +1,8 @@
+streamlit
+flask
+pandas
+numpy
+faiss-cpu
+beautifulsoup4
+google-generativeai
+python-dotenv
