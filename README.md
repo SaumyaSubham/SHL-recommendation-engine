@@ -71,7 +71,7 @@ The goal is to build a system that takes a job description (JD) or natural langu
 To build the SHL Assessment Recommendation Engine, we scraped data directly from SHL’s public website — specifically the **Pre-packaged Job Solutions** section, covering **up to 12 pages**.
 
 ###  Data Source:
-- **URL**: https://www.shl.com/en/solutions/pre-packaged-solutions/
+- **URL**: https://www.shl.com/solutions/products/product-catalog/
 
 ### 🛠️ Issues Found During Scraping:
 
@@ -219,19 +219,24 @@ python api.py
 ## 🌐 Deployments
 
 - Streamlit Cloud : https://shl-recommendation-engine01.streamlit.app/
-- Render : 
----
+- Render : https://shl-recommendation-engine-flask.onrender.com
 
+
+---
 
 
 ## 📸 Screenshots
 
+Streamlit UI:
 ![Streamlit UI](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2001.png)  
+
 ---
+Roles:
 ![Roles](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2002.png) 
 ---
 ![Roles](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2003.png)  
 ---
+Simple Flask API:
 ![Simple Flask API](https://github.com/SaumyaSubham/SHL-recommendation-engine/blob/ae0c40519937ba00c7add6e5590519dcce9835f7/assets/Screenshot%2004.png)
 
 
